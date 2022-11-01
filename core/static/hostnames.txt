@@ -1,8 +1,11 @@
 # RewriteCond %{HTTP_HOST} ^(?:www\.)?(example\.com)$
 # htaccess.txt
 # block.txt
+^.*safebrowsing.googleapis\.com$
+^.*googlesafebrowsing\.com$
 ^.*google\.com$
 ^.*paypal\.com$
+^.*artikel10\.org$
 ^.*112\.2o7\.com$
 ^.*firefox\.com$
 ^.*apple\.com$
